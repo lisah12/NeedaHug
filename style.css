@@ -2,9 +2,26 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+    background-image: url('./unnamed.jpg');
+    background-size: cover;
+    background-size: center;
+    background-repeat: no-repeat;
+
+}
+
+.overlay {
+    background-color: rgba(255, 255, 255, 0.7);
+    min-height: 100vh;
+    padding: 20px;
 }
 
 nav {
    display: flex;
    justify-content: center;
 }
+
+ img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+ }
